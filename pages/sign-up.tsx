@@ -1,3 +1,4 @@
+import Link from 'next/link'
 import React from 'react'
 
 const SignUp = () => {
@@ -43,8 +44,8 @@ const SignUp = () => {
                             aria-describedby="password" placeholder="Your password"/>
                     </div>
                     <div className="button-group d-flex flex-column mx-auto pt-50">
-                        <a className="btn btn-sign-up fw-medium text-lg text-white rounded-pill mb-16"
-                            href="../src/sign-up-photo.html" role="button">Continue</a>
+                        <Link className="btn btn-sign-up fw-medium text-lg text-white rounded-pill mb-16"
+                            href="/sign-up-photo" role="button">Continue</Link>
                         <a className="btn btn-sign-in fw-medium text-lg color-palette-1 rounded-pill" href="../src/sign-in.html"
                             role="button">Sign
                             In</a>
