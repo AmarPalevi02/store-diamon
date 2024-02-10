@@ -1,4 +1,5 @@
 import Image from 'next/image'
+import Link from 'next/link'
 import React from 'react'
 
 interface TypeItem {
@@ -12,7 +13,7 @@ const GameItem = (props: TypeItem) => {
     const { thumbnail, icon, title, des } = props
     return (
         <div className="featured-game-card position-relative">
-            <a href="./src/detail.html">
+            <Link href="/detail">
                 <div className="blur-sharp">
                     <Image
                         className='thumbnail'
@@ -38,7 +39,7 @@ const GameItem = (props: TypeItem) => {
                         </div>
                     </div>
                 </div>
-            </a>
+            </Link>
         </div>
     )
 }
