@@ -4,6 +4,7 @@ import React from 'react'
 interface AuthProps {
     isLogin?: boolean
 }
+
 const Auth = (props: Partial<AuthProps>) => {
     const { isLogin } = props
 
