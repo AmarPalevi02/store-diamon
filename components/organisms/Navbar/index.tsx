@@ -16,7 +16,7 @@ const Navbar = () => {
                     <div className="collapse navbar-collapse" id="navbarNav">
                         <ul className="navbar-nav ms-auto text-lg gap-lg-0 gap-2">
                             <Menu />
-                            <Auth isLogin />
+                            <Auth  />
                         </ul>
                     </div>
                 </div>
