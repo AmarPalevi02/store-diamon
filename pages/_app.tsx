@@ -10,7 +10,7 @@ import "@/styles/sign-up-success.css"
 import "@/styles/404-not-found.css"
 import "@/styles/navbar-log-in.css"
 
-// style Admin
+// style member
 import "@/styles/overview.css"
 import "@/styles/sidebar.css"
 import "@/styles/transactions.css"

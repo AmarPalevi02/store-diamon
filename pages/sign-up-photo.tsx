@@ -1,6 +1,5 @@
 import Avatar from '@/components/organisms/SignUpPhoto/Avatar'
 import SelectCategory from '@/components/organisms/SignUpPhoto/SelectCategory'
-import Image from 'next/image'
 import React from 'react'
 
 const SignUpPhoto = () => {
