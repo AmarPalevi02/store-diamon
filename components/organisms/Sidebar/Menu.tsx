@@ -11,6 +11,7 @@ const Menu = () => {
         <div className="menus">
             {menuSideBar.map((item, i) => {
                 const isRoutActive = asPath === item.path
+                
                 return (
                     <div key={i} className={`item ${isRoutActive ? 'active' : ""} mb-30`}>
                         <Image
