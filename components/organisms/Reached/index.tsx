@@ -7,25 +7,13 @@ const Reached = () => {
         <section className="reached pt-50 pb-50">
             <div className="container-fluid">
                 <div className="d-flex flex-lg-row flex-column align-items-center justify-content-center gap-lg-0 gap-4">
-                    <ReachedItem
-                        title={"290M+"}
-                        des={"Players Top Up"}
-                    />
+                    <ReachedItem title={"290M+"}>Players Top <br /> Up</ReachedItem>
                     <HorizontalLine />
-                    <ReachedItem
-                        title={"12.500"}
-                        des={"Games Available"}
-                    />
+                    <ReachedItem title={"12.500"}>Games <br /> Available</ReachedItem>
                     <HorizontalLine />
-                    <ReachedItem
-                        title={"99,9%"}
-                        des={"Happy Players"}
-                    />
+                    <ReachedItem title={"99,9%"}>Happy <br /> Players</ReachedItem>
                     <HorizontalLine />
-                    <ReachedItem
-                        title={"4.7"}
-                        des={"Rating Worldwide"}
-                    />
+                    <ReachedItem title={"4.7"}>Rating <br /> Worldwide</ReachedItem>
                 </div>
             </div>
         </section>
