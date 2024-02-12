@@ -38,7 +38,7 @@ export const menuSideBar: typeSideBar[] = [
     },
     {
         title: "Settings",
-        path: "/settings",
+        path: "/members/edit-profile",
         icon: "setting",
         active: false
     },
