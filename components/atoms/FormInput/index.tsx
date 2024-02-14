@@ -17,7 +17,7 @@ const FormInput = (props: TypeForm) => {
                 id="name"
                 name="name"
                 aria-describedby="name"
-                placeholder={placeholder}
+                placeholder={`${placeholder}`}
                 onChange={onChange}
             />
         </>

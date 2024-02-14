@@ -31,10 +31,10 @@ const EditProfile = () => {
                                 <FormInput label={"Full Name"} placeholder={"Enter Your Name"} />
                             </div>
                             <div className="pt-30">
-                            <FormInput label={"Email Address"} placeholder={"Enter Your Email Address"} />
+                                <FormInput label={"Email Address"} placeholder={"Enter Your Email Address"} />
                             </div>
                             <div className="pt-30">
-                            <FormInput label={"Phone"}  placeholder={"Enter Your Phone Numbers"} />
+                                <FormInput label={"Phone"} placeholder={"Enter Your Phone Numbers"} />
                             </div>
                             <div className="button-group d-flex flex-column pt-50">
                                 <button type="submit" className="btn btn-save fw-medium text-lg text-white rounded-pill"
