@@ -1,6 +1,6 @@
 import React, { ChangeEvent } from 'react'
 
-interface TypeForm {
+export interface TypeForm {
     label: String,
     placeholder: String,
     onChange?: (event: ChangeEvent<HTMLInputElement>) => void;
